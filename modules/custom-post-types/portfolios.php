@@ -585,7 +585,7 @@ class Jetpack_Portfolio {
 			</div><!-- close .jetpack-portfolio -->
 		<?php
 		} else { ?>
-			<p><em><?php _e( 'Your Portfolio Archive currently has no entries. You can start creating them on your dashboard.', 'jetpack' ); ?></p></em>
+			<p><em><?php _e( 'Your Portfolio Archive currently has no entries. You can start creating them on your dashboard.', 'jetpack' ); ?></em></p>
 		<?php
 		}
 		$html = ob_get_clean();
